@@ -1,0 +1,32 @@
+
+// @import "./Navbar/navmob";
+@import "./Navbar/hamburger";
+@import "./Navbar/navmenu";
+
+header{
+    .container{
+        @include flexp();
+        padding: 3rem 0;
+        justify-content: space-between;
+        a{
+            img{
+            display: inline-block;
+            text-align: center;
+            line-height: 3.5rem;
+            height: 7rem;
+            width: 7rem;
+        } 
+    } 
+        
+        @media (max-width:968px) {
+            padding: 2rem 5rem;
+            a{
+                img{
+                    height: 11rem;
+                    width: 12rem;
+                }
+            }
+       
+       }
+    }
+}

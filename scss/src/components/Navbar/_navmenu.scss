@@ -1,0 +1,33 @@
+.navmenu{
+
+   .social{
+       height: 100ch;
+       width: auto;
+   }    
+
+nav{
+    height: 100vh;
+    width: 100%;
+    background-color: orange;
+    // position: fixed;
+    @include flexp();
+    ul{
+        
+        li{
+            margin: 1rem;
+            list-style: none;
+            
+            a{
+                color: antiquewhite;
+                font-size: 5rem;
+                text-decoration: none;
+                transition: .5s;
+
+                &:hover{
+                    color: orangered;
+                }
+            }
+        }
+    }
+}
+}

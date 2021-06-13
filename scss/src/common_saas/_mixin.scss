@@ -1,0 +1,24 @@
+
+@mixin flexp() {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: 2s;
+    letter-spacing: .3rem;
+}
+
+.social{
+    width: 100%;
+    font-size: 1rem;
+    left: 0;
+    cursor: pointer;
+    //display: none;
+    // color: black;
+    // justify-content: center;
+    // align-items: center;
+    @include flexp();
+
+     a{
+        color: $Pr-text-cl;
+     }
+} 
